@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BC083419633CCC000934AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC083319633CCC000934AA /* Cocoa.framework */; };
+		16BC083619633CCC000934AA /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC083519633CCC000934AA /* MacRuby.framework */; };
+		16BC083F19633CCC000934AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16BC083D19633CCC000934AA /* InfoPlist.strings */; };
+		16BC084119633CCC000934AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BC084019633CCC000934AA /* main.m */; };
+		16BC084619633CCC000934AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16BC084419633CCC000934AA /* MainMenu.xib */; };
+		16BC084919633CCD000934AA /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 16BC084819633CCD000934AA /* rb_main.rb */; };
+		16BC084B19633CCD000934AA /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 16BC084A19633CCD000934AA /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16BC083819633CCC000934AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BC082819633CCC000934AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BC082F19633CCC000934AA;
+			remoteInfo = Spaceship_Art;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16BC083019633CCC000934AA /* Spaceship_Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spaceship_Art.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BC083319633CCC000934AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		16BC083519633CCC000934AA /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		16BC083C19633CCC000934AA /* Spaceship_Art-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spaceship_Art-Info.plist"; sourceTree = "<group>"; };
+		16BC083E19633CCC000934AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16BC084019633CCC000934AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16BC084219633CCC000934AA /* Spaceship_Art-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spaceship_Art-Prefix.pch"; sourceTree = "<group>"; };
+		16BC084519633CCC000934AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		16BC084819633CCD000934AA /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		16BC084A19633CCD000934AA /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BC082D19633CCC000934AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC083619633CCC000934AA /* MacRuby.framework in Frameworks */,
+				16BC083419633CCC000934AA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BC082719633CCC000934AA = {
+			isa = PBXGroup;
+			children = (
+				16BC083A19633CCC000934AA /* Spaceship_Art */,
+				16BC083219633CCC000934AA /* Frameworks */,
+				16BC083119633CCC000934AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BC083119633CCC000934AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BC083019633CCC000934AA /* Spaceship_Art.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BC083219633CCC000934AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BC083319633CCC000934AA /* Cocoa.framework */,
+				16BC083519633CCC000934AA /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16BC083A19633CCC000934AA /* Spaceship_Art */ = {
+			isa = PBXGroup;
+			children = (
+				16BC084A19633CCD000934AA /* AppDelegate.rb */,
+				16BC084319633CCC000934AA /* Resources */,
+				16BC084719633CCD000934AA /* Other Sources */,
+				16BC083B19633CCC000934AA /* Supporting Files */,
+			);
+			path = Spaceship_Art;
+			sourceTree = "<group>";
+		};
+		16BC083B19633CCC000934AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16BC083C19633CCC000934AA /* Spaceship_Art-Info.plist */,
+				16BC083D19633CCC000934AA /* InfoPlist.strings */,
+				16BC084019633CCC000934AA /* main.m */,
+				16BC084219633CCC000934AA /* Spaceship_Art-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16BC084319633CCC000934AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16BC084419633CCC000934AA /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16BC084719633CCD000934AA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16BC084819633CCD000934AA /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		16BC083719633CCC000934AA /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 16BC085119633CCD000934AA /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				16BC083919633CCC000934AA /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		16BC082F19633CCC000934AA /* Spaceship_Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BC084E19633CCD000934AA /* Build configuration list for PBXNativeTarget "Spaceship_Art" */;
+			buildPhases = (
+				16BC082C19633CCC000934AA /* Sources */,
+				16BC082D19633CCC000934AA /* Frameworks */,
+				16BC082E19633CCC000934AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spaceship_Art;
+			productName = Spaceship_Art;
+			productReference = 16BC083019633CCC000934AA /* Spaceship_Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BC082819633CCC000934AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 16BC082B19633CCC000934AA /* Build configuration list for PBXProject "Spaceship_Art" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16BC082719633CCC000934AA;
+			productRefGroup = 16BC083119633CCC000934AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BC082F19633CCC000934AA /* Spaceship_Art */,
+				16BC083719633CCC000934AA /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16BC082E19633CCC000934AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC084B19633CCD000934AA /* AppDelegate.rb in Resources */,
+				16BC083F19633CCC000934AA /* InfoPlist.strings in Resources */,
+				16BC084619633CCC000934AA /* MainMenu.xib in Resources */,
+				16BC084919633CCD000934AA /* rb_main.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BC082C19633CCC000934AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC084119633CCC000934AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16BC083919633CCC000934AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BC082F19633CCC000934AA /* Spaceship_Art */;
+			targetProxy = 16BC083819633CCC000934AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16BC083D19633CCC000934AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BC083E19633CCC000934AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16BC084419633CCC000934AA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BC084519633CCC000934AA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16BC084C19633CCD000934AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16BC084D19633CCD000934AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16BC084F19633CCD000934AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship_Art/Spaceship_Art-Prefix.pch";
+				INFOPLIST_FILE = "Spaceship_Art/Spaceship_Art-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16BC085019633CCD000934AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship_Art/Spaceship_Art-Prefix.pch";
+				INFOPLIST_FILE = "Spaceship_Art/Spaceship_Art-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16BC085219633CCD000934AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		16BC085319633CCD000934AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BC082B19633CCC000934AA /* Build configuration list for PBXProject "Spaceship_Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC084C19633CCD000934AA /* Debug */,
+				16BC084D19633CCD000934AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BC084E19633CCD000934AA /* Build configuration list for PBXNativeTarget "Spaceship_Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC084F19633CCD000934AA /* Debug */,
+				16BC085019633CCD000934AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16BC085119633CCD000934AA /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC085219633CCD000934AA /* Debug */,
+				16BC085319633CCD000934AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16BC082819633CCC000934AA /* Project object */;
+}
