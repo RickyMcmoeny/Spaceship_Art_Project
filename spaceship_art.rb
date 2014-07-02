@@ -12,7 +12,7 @@ $shrink_rate = 0.5 #0.1
 class GameWindow < Gosu::Window
   def initialize
     super($window_width, $window_height, false)
-    self.caption = "Gosu Tutorial Game"
+    self.caption = "Space Art"
 
     @background_image = Gosu::Image.new(self, "media/space_background.jpg", true)
     @player = Player.new(self)
